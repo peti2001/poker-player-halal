@@ -12,7 +12,8 @@ PORT_NUMBER = os.environ.has_key('PORT') and int(os.environ['PORT']) or 9000
 
 class PlayerService(BaseHTTPServer.BaseHTTPRequestHandler):
 
-    def do_POST(self):
+    de
+    f do_POST(self):
 
         self.send_response(200)
         self.send_header("Content-type", "application/json")
